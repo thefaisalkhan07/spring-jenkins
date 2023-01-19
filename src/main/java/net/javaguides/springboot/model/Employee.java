@@ -1,5 +1,6 @@
 package net.javaguides.springboot.model;
 
+
 import lombok.*;
 import javax.persistence.*;
 @Data
