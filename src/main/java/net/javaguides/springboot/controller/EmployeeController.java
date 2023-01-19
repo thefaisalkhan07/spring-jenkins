@@ -29,7 +29,7 @@ public class EmployeeController {
 	private EmployeeRepository employeeRepository;
 	
 	// get all employees
-	@GetMapping("/employees")
+	@GetMapping("/SpringBootApp")
 	public List<Employee> getAllEmployees(){
 		return employeeRepository.findAll();
 	}		
