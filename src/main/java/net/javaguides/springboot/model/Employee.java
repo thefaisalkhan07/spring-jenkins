@@ -4,10 +4,6 @@ package net.javaguides.springboot.model;
 import lombok.*;
 import javax.persistence.*;
 @Data
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "employees")
 @SecondaryTable(name = "users")
